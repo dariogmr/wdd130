@@ -10,7 +10,7 @@ nav a {
 h1 {
     color: steelblue;
 }
-img {
+main img {
     width: 200px;
     height: auto;
     border: 1px solid steelblue;
@@ -18,5 +18,35 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p { 
-    padding: 10px;
+    padding: 0px;
+}
+
+main {
+   width: 840px;
+}
+
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 2px solid red;
+    padding: 1rem ;
+    background-color: #eee ;
+    color: #333;
+    text-align: center;
+}
+/* The border color uses the rgba color method in order to take advantage of a subtle,transparent border effect.
+The RGBA value consists of four values : red,green ,blue and alpha.The first three values (0,0,0) represent black,
+and the last value (.2) represents alpha or opacity of the color,An alpha value .2 means that the color is mostly transparent,allowing the background
+to show through,By using this border color , the border appears very light and barely noticeable. */
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+/* Define the second image with the respective word before , in this case aside ,refering to the second image inside*/
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
