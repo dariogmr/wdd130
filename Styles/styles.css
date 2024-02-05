@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -9,30 +15,30 @@ nav a {
 }
 h1 {
     color: steelblue;
+    padding: .5rem
 }
 main img {
-    width: 200px;
+    width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 p { 
     padding: 0;
 }
 
 main {
-   width: 840px;
+   max-width: 640px;
 }
+
 
 aside{
     width: 20rem;
-    margin: 1rem;
-    border: 2px solid red;
-    padding: 1rem ;
-    background-color: #eee ;
-    color: #333;
     text-align: center;
+    position: relative;
 }
 /* The border color uses the rgba color method in order to take advantage of a subtle, transparent border effect.
 The RGBA value consists of four values : red,green ,blue and alpha.The first three values (0,0,0) represent black,
@@ -45,8 +51,24 @@ aside img {
 }
 /* Define the second image with the respective word before , in this case aside ,refering to the second image inside*/
 
+aside h2 {
+    position: absolute;
+    top:118px ;
+    left: 134px;
+}
+
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 2px solid red;
+    padding: 1rem;
+    background-color: #eee;
+    color: black;
+    
 }
