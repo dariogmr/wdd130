@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --primary-color: #2a2983 ;
+    --secondary-color: #019CE4 ;
+    --accent1-color: #28232B;
+    --accent2-color: #732E2B;
+    --accent3-color: #97c0c7;
+
+    --heading-font: 'Roboto', serif ;
+    --paragraph-font: 'Montserrat' ,sans-serif;
+
+    --nav-background-color: #019CE4 ;
+    --nav-link-color: #403c42 ;
+    --nav-hover-link-color: #732E2B;
+    --nav-hover-background-color: #a2bdc2;
+}
+
+header {
+    padding: 20px;
+    background-color:var(--nav-hover-background-color);
+}
+
+p {
+    padding: 25px;
+}
+h1 {
+    color: var(--accent1-color);
+}
+h2 {
+    color:var(--accent2-color)
+}
+
+.sociallinks {
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* .hero { 
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;   
+}
+h1 {
+    position: absolute;
+    top: 320px;
+    left: 150px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.hero article  {
+    position: absolute;
+    width: 300px;
+    top: 300px;
+}
+*/
+.hero {
+    position: relative;
+    width: 500px;
+}
+
+h1 {
+    position: absolute;
+    top:50px;
+    left: 110px;
+    background-color:rgba(119, 163, 213, 0.8);
+}
+
+article {
+    position: absolute;
+    top: 150px; /* Adjust top position as needed */
+    left: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+    padding: 2px;
+}
+
+article img {
+    float: right;
+    margin-left: 15px; /* Add margin between image and paragraph */
+}
+
+
+
