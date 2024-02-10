@@ -12,13 +12,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <img src="images/raftinglogo.jpeg" alt="Rafting Logo" width="200">
+        <header class="logo">
+            <img  src="images/raftinglogo.jpeg" alt="Rafting Logo" width="200">
             <nav >
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
+                <ul class="navigation">
+                   <li><a href="index.html" >Home</a></li>
+                   <li> <a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                  <li> <a href="contact.html">Contact Us</a></li>
+                </ul>
             </nav>
         </header>
         <main>
@@ -30,17 +32,42 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam inventore animi excepturi accusamus molestiae dignissimos eum iusto. Nam, fuga vero? Blanditiis veniam magnam harum dolorum. Inventore porro est magni neque!</p>
                 </article>
             </div>
-            <section>
+            <section class="history">
                 <h2>History</h2>
-                <p>HISTORY OF THE COMPANY Lorem ipsum dolor sit amet consectetur adipisicing elit. In earum doloremque, officia repellat, voluptas itaque, aliquam natus veniam esse iure explicabo sunt atque! Quidem exercitationem ut distinctio hic laboriosam natus.</p>
+                <div class="history-content">
+                    <div class="left-history">
+                        <p>HISTORY OF THE COMPANY Lorem ipsum dolor sit amet consectetur adipisicing elit. In earum doloremque, officia repellat, voluptas itaque, aliquam natus veniam esse iure explicabo sunt atque! Quidem exercitationem ut distinctio hic laboriosam natus.</p>
+                    </div>
+                    <div class="right-history">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati earum exercitationem doloribus aliquam reprehenderit consequuntur! Reprehenderit odit culpa corporis ab quam esse dicta deleniti similique asperiores animi. Autem, quidem atque?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium animi nihil ut, esse facilis repellendus nesciunt illo sed autem, error cum, sunt rerum provident inventore tempora molestiae incidunt ratione maxime.</p>
+                    </div>
+                </div>
             </section>
-            <section>
+            <section class="adventures">
                 <h2>Adventure Awaits You!</h2>
-                <img src="images/raftingimg1.jpeg" alt="Rafting Image 1">
-                <img src="images/raftingimg2.jpeg" alt="Rafting Image 2">
-                <img src="images/raftingimg3.jpeg" alt="Rafting Image 3">
-                <img src="images/raftingimg4.jpeg" alt="Rafting Image 4">
-                <img src="images/raftingimg5.jpeg" alt="Rafting Image 5">
+                <div class="adventures-images">
+                    <figure>
+                        <img src="images/raftingimg1.jpeg" alt="Rafting Image 1">
+                        <figcaption>River</figcaption>
+                    </figure>
+                    <figure>   
+                        <img src="images/raftingimg2.jpeg" alt="Rafting Image 2">
+                        <figcaption> Group of people rafting</figcaption>
+                    </figure>
+                    <figure>    
+                        <img src="images/raftingimg3.jpeg" alt="Rafting Image 3">
+                        <figcaption> Person enjoying rafting</figcaption>
+                    </figure>
+                    <figure>    
+                        <img src="images/raftingimg4.jpeg" alt="Rafting Image 4">>
+                        <figcaption> Enjoying the river</figcaption>
+                    </figure>
+                    <figure>   
+                        <img src="images/raftingimg5.jpeg" alt="Rafting Image 5">
+                        <figcaption> Enjoying the river</figcaption>
+                    </figure>
+                </div>
             </section>
         </main>
         <footer>
